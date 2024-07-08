@@ -25,17 +25,13 @@ namespace Application.Service
                 });
         }
         
-        public List<MailMessage> GetMailsAsync(EmailOptions MailOptions)
+        public List<MailMessage> GetMails(EmailOptions MailOptions)
         {
-            var token = new System.Threading.CancellationToken();
             var emails = ImapService.GetMessages(MailOptions);
             return emails
                 .Where(m=>m.DateAsDateTime() > MailOptions.StartDate && m.DateAsDateTime() < MailOptions.EndDate)
                 .Where(m=>m.Subject.Contains("EN") || m.Subject.Contains("ES"))
                 .ToList();
-            
-           
-
         }
         
         public Dictionary<string, List<string>> ParseEmailMessage(MailMessage message){
@@ -52,13 +48,9 @@ namespace Application.Service
                     "You are","You travel with","Airport of departure to Colombia","Airport of arrival in Colombia","Name and address (city, street #) of accommodation point","Local phone number","Name and address (city, street #)"};
             }
 
-
-            
-            
             if(specificKeys.Count() == 0)
                 return new Dictionary<string,List<string>>();
-            
-            
+       
             var dictionary = new Dictionary<string, List<string>>();
             string currentKey = null;
             

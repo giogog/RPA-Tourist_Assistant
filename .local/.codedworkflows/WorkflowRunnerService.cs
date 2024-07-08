@@ -27,19 +27,19 @@ namespace Tourist_Assistant
         }
 
         /// <summary>
-        /// Invokes the Main.cs
-        /// </summary>
-        public void Main()
-        {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"Main.cs", new Dictionary<string, object>{}, default, default, default, GetAssemblyName());
-        }
-
-        /// <summary>
         /// Invokes the Infrastructure/OpenBrowser.xaml
         /// </summary>
         public void OpenBrowser()
         {
             var result = _services.WorkflowInvocationService.RunWorkflow(@"Infrastructure\OpenBrowser.xaml", new Dictionary<string, object>{}, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Main.cs
+        /// </summary>
+        public void Main()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Main.cs", new Dictionary<string, object>{}, default, default, default, GetAssemblyName());
         }
 
         private string GetAssemblyName()

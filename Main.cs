@@ -16,7 +16,7 @@ public class Main:ControllerBase
     { 
         
         var EmailsTask = Task.Run(() => ExecuteMailRetrievalWorkFlow()); 
-        var OpenPageTask = OpenBrowser();
+        var OpenPageTask = OpenBrowserlWorkFlow();
         
         await Task.WhenAll(EmailsTask,OpenPageTask);
         
@@ -25,20 +25,25 @@ public class Main:ControllerBase
         //var stringBuilder = new StringBuilder();
         foreach (var message in emails)
         {
-            var ParseTask = ExecuteMailParse(message);
             
-            await NavigateToCheckMig();
-            var values = await ParseTask;
-            var journeyType = values.Where(v=>v.Key.Contains("Eres") || v.Key.Contains("You are")).Select(v=>v.Value.FirstOrDefault()).First();
+            var values = await ExecuteMailParseWorkFlow(message);
+            await CheckMiglWorkFlow();
+            
+            var journeyType = values.Where(v=>v.Key.Contains("Eres") || v.Key.Contains("You are"))
+                .Select(v=>v.Value.FirstOrDefault())
+                .First();
             if(journeyType == null)
                 throw new Exception("Couldn't Parse Journey Type");
-            await TypeOfJourney(journeyType);
             
-            var flightType = values.Where(v=>v.Key.Contains("Viajas con") || v.Key.Contains("You travel with")).Select(v=>v.Value.FirstOrDefault()).First();
+            await TypeOfJourneylWorkFlow(journeyType);
+            
+            var flightType = values.Where(v=>v.Key.Contains("Viajas con") || v.Key.Contains("You travel with"))
+                .Select(v=>v.Value.FirstOrDefault())
+                .First();
             if(flightType == null)
                 throw new Exception("Couldn't Parse Flight Type");
             
-            await TravelInformation(flightType);
+            await TravelInformationlWorkFlow(flightType);
             
             break;
             

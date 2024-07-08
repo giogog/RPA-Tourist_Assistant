@@ -19,7 +19,7 @@ namespace Tourist_Assistant.Controllers
         
 
         
-        public async Task<Dictionary<string, List<string>>> ExecuteMailParse(MailMessage message)
+        public async Task<Dictionary<string, List<string>>> ExecuteMailParseWorkFlow(MailMessage message)
         {
             Log("Parse Email");
             return _mailService.ParseEmailMessage(message);
@@ -37,7 +37,7 @@ namespace Tourist_Assistant.Controllers
             _mailService = new EmailService(mail);
             
             
-            return _mailService.GetMailsAsync(new EmailOptions()
+            return _mailService.GetMails(new EmailOptions()
                         { 
                             Top = 100, 
                             OrderByDate = EOrderByDate.NewestFirst, 
@@ -51,19 +51,20 @@ namespace Tourist_Assistant.Controllers
         
         
         
-        public async Task OpenBrowser()
+        public async Task OpenBrowserlWorkFlow()
         {
             Log("Open Browser");
             uiAutomation.Open("WebPage");
         }
-        public async Task NavigateToCheckMig(){
+        
+        public async Task CheckMiglWorkFlow(){
             Log("Navigate to CheckMig");
             var homescreen = uiAutomation.Attach("WebPage");
             homescreen.Click("Do Checkmig");
 
         }
         
-        public async Task TypeOfJourney(string Type)
+        public async Task TypeOfJourneylWorkFlow(string Type)
         {
             Log("Complete TypeOfJourney Form " + Type);
             var homescreen = uiAutomation.Attach("TypeOfJourney");
@@ -78,7 +79,7 @@ namespace Tourist_Assistant.Controllers
         }  
         
         
-        public async Task TravelInformation(string Type)
+        public async Task TravelInformationlWorkFlow(string Type)
         {
             Log("Complete TravelInformation Form " + Type);
             var homescreen = uiAutomation.Attach("Travelinformation");
