@@ -1,0 +1,26 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Infrastructure/GetDates.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StartDate&Sequence_1",
+        "EndDate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "EndDate_dt",
+        "StartDate_dt"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
