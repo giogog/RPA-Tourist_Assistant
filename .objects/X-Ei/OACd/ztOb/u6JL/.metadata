@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fromColombia",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "u6JLBQWMcU6G8z-5wV1h7g",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/u6JLBQWMcU6G8z-5wV1h7g",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/ztObGy-YZEWOoUcUmccnxg",
+  "Created": "2024-07-08T21:58:41.8295645Z",
+  "Updated": "2024-07-08T22:00:06.4008379Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

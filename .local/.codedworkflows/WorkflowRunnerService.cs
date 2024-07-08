@@ -34,6 +34,14 @@ namespace Tourist_Assistant
             var result = _services.WorkflowInvocationService.RunWorkflow(@"Main.cs", new Dictionary<string, object>{}, default, default, default, GetAssemblyName());
         }
 
+        /// <summary>
+        /// Invokes the Infrastructure/OpenBrowser.xaml
+        /// </summary>
+        public void OpenBrowser()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Infrastructure\OpenBrowser.xaml", new Dictionary<string, object>{}, default, default, default, GetAssemblyName());
+        }
+
         private string GetAssemblyName()
         {
             var assemblyProvider = _services.Container.Resolve<ILibraryAssemblyProvider>();

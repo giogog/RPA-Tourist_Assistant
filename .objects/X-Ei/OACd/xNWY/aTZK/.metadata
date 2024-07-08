@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Do Checkmig",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aTZKfDHCGUWoDaX651ALkA",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/aTZKfDHCGUWoDaX651ALkA",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/xNWYDKvOe0qGKlEKrkVcVA",
+  "Created": "2024-07-08T20:42:15.284718Z",
+  "Updated": "2024-07-08T21:10:03.0279786Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Travelinformation",
+  "Type": "Screen",
+  "Id": "wb3gXic5-UCuJypdbZjb2g",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-08T22:32:06.7279228Z",
+  "Updated": "2024-07-08T22:35:35.2136173Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

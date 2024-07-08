@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="r_DuuGStjUW1kGxNExZfdg" Reference="o1OyEP-s8UWNQQHnvTl1FA/xNWYDKvOe0qGKlEKrkVcVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="56eAHWcK70WgzxgT276U4A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAIAAAAmKNuZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAATlJREFUSEvtkb1KA0EQgH2a2wvXmBzpbO4SLSSNWPk0t3sBY2kj4gtYCRbBgNgogp1NSKO9LyCZmV3lOEcySoS7k7tYqR/sMj/Lxwy7lv8ov1i30TkYmTEAnp/dLyor6RABAda9RPJVdIg29NPJeLq3cyylZjok2x8GhERk+RChNOrq2DDYDw8vNBJeXU6lukQ9HU/S175zthsMiZxUl6ihY1esPbK2owzHUv1KqW4rVZFRkohLvby6ttLWFruYUl3PtCLt8316c8JpnHgPT7OwZWBesOMnVbo44QE9HmoOyDF/I68p7RK+0Q1GXdZFWl3PJm2V8qbSLqF6WYUMQKS9u9tHdvF0WZbJiyIqp1voEJ3jNbWl939oqNs0QS/x4YPd7SMEliYNdfgMEtWhVNeMf11z/pAuz98A2Xx8Tnk9Vv0AAAAASUVORK5CYII=" Reference="o1OyEP-s8UWNQQHnvTl1FA/xNWYDKvOe0qGKlEKrkVcVA" Selector="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" Title="Check-mig - Migración Colombia" Url="https://apps.migracioncolombia.gov.co/pre-registro/en">
+      <imageRef attrName="InformativeScreenshot" originalValue="c6b71e3527051e63fb2ed9e640774dc1.jpg" xmlns="">0QwEAnvNRrEydwmalMyD0qw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "TypeOfJourney",
+  "Type": "Screen",
+  "Id": "ztObGy-YZEWOoUcUmccnxg",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/ztObGy-YZEWOoUcUmccnxg",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-08T21:58:41.7979569Z",
+  "Updated": "2024-07-08T21:58:59.799135Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

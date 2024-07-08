@@ -1,0 +1,16 @@
+﻿{
+  "Name": "PrivateFlight",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lnV5QZE0JU6pkUbgCRCkgA",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/lnV5QZE0JU6pkUbgCRCkgA",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-08T22:35:19.1604376Z",
+  "Updated": "2024-07-08T22:36:42.2584925Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

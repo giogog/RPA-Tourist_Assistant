@@ -1,0 +1,14 @@
+﻿{
+  "Name": "OpenWebPage",
+  "Type": "App",
+  "Id": "X-EilYhCAUegazex_uHJlQ",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/X-EilYhCAUegazex_uHJlQ",
+  "Created": "2024-07-08T20:41:36.6390955Z",
+  "Updated": "2024-07-08T21:58:41.7811957Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

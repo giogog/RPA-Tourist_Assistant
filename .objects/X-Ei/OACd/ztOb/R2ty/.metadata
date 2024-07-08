@@ -1,0 +1,16 @@
+﻿{
+  "Name": "toColombia",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "R2ty5zDJK0q0lcSIx9mE9A",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/R2ty5zDJK0q0lcSIx9mE9A",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/ztObGy-YZEWOoUcUmccnxg",
+  "Created": "2024-07-08T21:58:41.8711286Z",
+  "Updated": "2024-07-08T21:59:52.5587162Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
