@@ -23,10 +23,15 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Infrastructure/OpenBrowser.xaml",
+      "Path": "Infrastructure/GoogleSearch.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "googleData&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Code",
+        "in_AirportName"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

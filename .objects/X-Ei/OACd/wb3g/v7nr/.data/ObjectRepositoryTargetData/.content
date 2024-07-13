@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="63N1Wxp4b0SBQ6_VeNKGIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" CVScreenId="2fbb695e-27ea-49e3-9a02-ef9ac5a190f8" CvElementArea="725, 415, 419, 63" CvType="InputBox" DesignTimeRectangle="727, 417, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='flight_number' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='flight_number' tag='INPUT' type='text' class='numerico' placeholder='Enter the flight number' aaname='* Flight number (without letters)' /&gt;" Guid="569355f8-ca4b-4203-8bd2-c990fdc76403" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2fbb695e-27ea-49e3-9a02-ef9ac5a190f8" CvTextArea="725, 385, 226, 17" CvTextArgument="* Flight number (without letters)" CvType="Text" DesignTimeRectangle="727, 381, 415, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='numeroVueloContainer' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='numeroVueloContainer' tag='LABEL' type='' class='' aaname='* Flight number (without letters)' check:innerText='* Flight number (without letters)' /&gt;" Guid="8f57edc9-3d57-4573-8b5b-ad96f58b7cea" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="48c19054b1ba5ce74f52ba608be36616.png" xmlns="">0DiOPWaJDwEmVu-jx2a9obA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

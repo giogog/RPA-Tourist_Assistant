@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ZGPagughw0GtlDYQtF_JLQ" Reference="o1OyEP-s8UWNQQHnvTl1FA/lnV5QZE0JU6pkUbgCRCkgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="aLI7RyKRz0qjlHmd2mlk7A" Reference="o1OyEP-s8UWNQQHnvTl1FA/lnV5QZE0JU6pkUbgCRCkgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" ContentHash="H8CwuIlqzkCqm9LxA4VBcg" DesignTimeRectangle="1185, 523, 95, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Private flight' class='checkbox__label' parentid='tipoVueloContainer' tag='DIV' innertext='Private flight' /&gt;" FuzzySelectorArgument="&lt;webctrl class='checkbox__label' parentid='tipoVueloContainer' tag='DIV' type='' /&gt;" Guid="6f9f3276-b67c-4bbe-b888-f3e4c196138a" ImageBase64="" Reference="o1OyEP-s8UWNQQHnvTl1FA/lnV5QZE0JU6pkUbgCRCkgA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" DesignTimeRectangle="785, 126, 95, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Private flight' class='checkbox__label' parentid='tipoVueloContainer' tag='DIV' innertext='Private flight' /&gt;" FuzzySelectorArgument="&lt;webctrl class='checkbox__label' parentid='tipoVueloContainer' tag='DIV' type='' /&gt;" Guid="6f9f3276-b67c-4bbe-b888-f3e4c196138a" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="541b5d9c0ae2a3d409f27d0cedc5b079.png" xmlns="">0m-3jiJRLrkuCP7PPVDyz4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

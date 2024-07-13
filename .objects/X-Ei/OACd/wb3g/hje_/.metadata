@@ -1,0 +1,16 @@
+﻿{
+  "Name": "ImmigrationCheckpoint",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "hje_x0tPX0yEFcRe_XAjZw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/hje_x0tPX0yEFcRe_XAjZw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-10T22:11:25.2975657Z",
+  "Updated": "2024-07-10T22:12:19.1953986Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

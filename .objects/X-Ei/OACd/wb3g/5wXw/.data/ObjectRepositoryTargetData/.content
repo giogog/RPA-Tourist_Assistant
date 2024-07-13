@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_WkcQ4gAdUSzeNxQzsJAMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" CVScreenId="01e02303-f8fe-4976-8b6c-14491ddbed67" CvTextArea="304, 438, 87, 18" CvTextArgument="mm/dd/yyyy" CvType="Text" DesignTimeRectangle="288, 417, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='FechaVuelo' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='FechaVuelo' tag='INPUT' type='text' class='datepicker datepicker-input' placeholder='mm/dd/yyyy' aaname='' /&gt;" Guid="bf054ef6-ab04-40fa-9e8d-267c9093f6f8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="01e02303-f8fe-4976-8b6c-14491ddbed67" CvTextArea="286, 386, 88, 14" CvTextArgument="* Travel date" CvType="Text" DesignTimeRectangle="288, 381, 415, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='* Travel date' parentid='dialog_2' tag='LABEL' innertext='* Travel date' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='* Travel date' parentid='dialog_2' tag='LABEL' innertext='* Travel date' type='' class='' check:text='* Travel date' /&gt;" Guid="e0f4cd8e-49cc-4857-95cf-f1a736472a26" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="038d8ab69e69679db0f6e2b0ee3f889b.png" xmlns="">0nIuhZZWcnkKksr4hL2cPqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "FlightNum",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "v7nrrkKT2EOi0JBTYYcYhw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/v7nrrkKT2EOi0JBTYYcYhw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-10T22:41:31.1193728Z",
+  "Updated": "2024-07-10T22:43:16.248864Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

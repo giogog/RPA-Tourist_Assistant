@@ -1,0 +1,16 @@
+﻿{
+  "Name": "TravelDate",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "5wXwHi77IEer6g7QpjnkIA",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/5wXwHi77IEer6g7QpjnkIA",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-10T22:41:14.8408187Z",
+  "Updated": "2024-07-10T22:42:44.5080346Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

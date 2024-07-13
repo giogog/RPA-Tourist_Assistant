@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PzL-JJur-Ee2MwNQR7G8nQ" Reference="o1OyEP-s8UWNQQHnvTl1FA/ocx4VgrY_0yEv02_QSIWFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" CVScreenId="31206a2c-9cff-401f-9f5a-eda181e33bdf" CvElementArea="289, 774, 394, 203" CvType="InputBox" DesignTimeRectangle="289, 817, 388, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dropdown-PaisDestino' tag='A' visibleinnertext='UNITED STATES' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dropdown-PaisDestino' tag='A' visibleinnertext='UNITED STATES' type='' class='' aaname='                                     UNITED STATES                                 ' check:text='UNITED STATES' /&gt;" Guid="a61c6126-b2d7-4731-b421-70a550734b4a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ffe33b6aeab68fb7bd3264a2022583b4.png" xmlns="">0fJy28kl6V06fUwrTgMpX-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

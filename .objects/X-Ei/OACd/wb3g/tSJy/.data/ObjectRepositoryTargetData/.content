@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2mQD0MNcrUScKNJmmmIYhA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" CVScreenId="b53314bf-8568-40f5-85e9-4ead02804bac" CvElementArea="286, 803, 419, 63" CvType="InputBox" DesignTimeRectangle="288, 805, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='PaisDestino-selected' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='PaisDestino-selected' tag='INPUT' type='text' class='autocomplete' placeholder='Enter the country' aaname='' /&gt;" Guid="1631b304-3514-4b07-8e70-b42a18ef6820" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b53314bf-8568-40f5-85e9-4ead02804bac" CvTextArea="286, 774, 69, 17" CvTextArgument="* Country" CvType="Text" DesignTimeRectangle="288, 769, 415, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='* Country' parentid='dialog_2' tag='LABEL' innertext='* Country' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='* Country' parentid='dialog_2' tag='LABEL' innertext='* Country' type='' class='' check:text='* Country' /&gt;" Guid="3fab4c5f-a9a1-4986-ba03-9da711f0c994" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8524d1559cbe87e69722fc7cb019ac5a.png" xmlns="">0XHrOvxx4cEuCQDwdgl7xAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

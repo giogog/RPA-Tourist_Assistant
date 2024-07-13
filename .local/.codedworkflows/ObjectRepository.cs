@@ -7,6 +7,7 @@ namespace Tourist_Assistant.ObjectRepository
         public static class OpenWebPage
         {
             static string _reference = "o1OyEP-s8UWNQQHnvTl1FA/X-EilYhCAUegazex_uHJlQ";
+            public static _Implementation._OpenWebPage.__Google Google { get; private set; } = new _Implementation._OpenWebPage.__Google();
             public static _Implementation._OpenWebPage.__Travelinformation Travelinformation { get; private set; } = new _Implementation._OpenWebPage.__Travelinformation();
             public static _Implementation._OpenWebPage.__TypeOfJourney TypeOfJourney { get; private set; } = new _Implementation._OpenWebPage.__TypeOfJourney();
             public static _Implementation._OpenWebPage.__WebPage WebPage { get; private set; } = new _Implementation._OpenWebPage.__WebPage();
@@ -38,6 +39,44 @@ namespace Tourist_Assistant._Implementation
         public IElementDescriptor Element { get; set; }
     }
 
+    namespace _OpenWebPage
+    {
+        public class __Google : IScreenDescriptor
+        {
+            public IScreenDescriptorDefinition GetDefinition()
+            {
+                return _screenDescriptor;
+            }
+
+            private readonly ScreenDescriptorDefinition _screenDescriptor;
+            public __Google()
+            {
+                _screenDescriptor = new ScreenDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/1ZmOOQbeLUqClOq0GdHzig", DisplayName = "Google", Screen = this};
+            }
+        }
+    }
+
+    namespace _OpenWebPage._Travelinformation
+    {
+        public class __ChooseFirst : IElementDescriptor
+        {
+            private readonly IScreenDescriptor _screenDescriptor;
+            private readonly IElementDescriptor _parentElementDescriptor;
+            private readonly IElementDescriptorDefinition _elementDescriptor;
+            public IElementDescriptorDefinition GetDefinition()
+            {
+                return _elementDescriptor;
+            }
+
+            public __ChooseFirst(IScreenDescriptor screenDescriptor, IElementDescriptor parentElementDescriptor)
+            {
+                _screenDescriptor = screenDescriptor;
+                _parentElementDescriptor = parentElementDescriptor;
+                _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/ocx4VgrY_0yEv02_QSIWFw", DisplayName = "ChooseFirst", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
+            }
+        }
+    }
+
     namespace _OpenWebPage._Travelinformation
     {
         public class __CommercialFlight : IElementDescriptor
@@ -55,6 +94,69 @@ namespace Tourist_Assistant._Implementation
                 _screenDescriptor = screenDescriptor;
                 _parentElementDescriptor = parentElementDescriptor;
                 _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/bXqRG5N4BEeAY7JU1xbjGA", DisplayName = "CommercialFlight", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
+            }
+        }
+    }
+
+    namespace _OpenWebPage._Travelinformation
+    {
+        public class __Country : IElementDescriptor
+        {
+            private readonly IScreenDescriptor _screenDescriptor;
+            private readonly IElementDescriptor _parentElementDescriptor;
+            private readonly IElementDescriptorDefinition _elementDescriptor;
+            public IElementDescriptorDefinition GetDefinition()
+            {
+                return _elementDescriptor;
+            }
+
+            public __Country(IScreenDescriptor screenDescriptor, IElementDescriptor parentElementDescriptor)
+            {
+                _screenDescriptor = screenDescriptor;
+                _parentElementDescriptor = parentElementDescriptor;
+                _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/tSJySl7500OHuUYA349CPg", DisplayName = "Country", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
+            }
+        }
+    }
+
+    namespace _OpenWebPage._Travelinformation
+    {
+        public class __FlightNum : IElementDescriptor
+        {
+            private readonly IScreenDescriptor _screenDescriptor;
+            private readonly IElementDescriptor _parentElementDescriptor;
+            private readonly IElementDescriptorDefinition _elementDescriptor;
+            public IElementDescriptorDefinition GetDefinition()
+            {
+                return _elementDescriptor;
+            }
+
+            public __FlightNum(IScreenDescriptor screenDescriptor, IElementDescriptor parentElementDescriptor)
+            {
+                _screenDescriptor = screenDescriptor;
+                _parentElementDescriptor = parentElementDescriptor;
+                _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/v7nrrkKT2EOi0JBTYYcYhw", DisplayName = "FlightNum", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
+            }
+        }
+    }
+
+    namespace _OpenWebPage._Travelinformation
+    {
+        public class __ImmigrationCheckpoint : IElementDescriptor
+        {
+            private readonly IScreenDescriptor _screenDescriptor;
+            private readonly IElementDescriptor _parentElementDescriptor;
+            private readonly IElementDescriptorDefinition _elementDescriptor;
+            public IElementDescriptorDefinition GetDefinition()
+            {
+                return _elementDescriptor;
+            }
+
+            public __ImmigrationCheckpoint(IScreenDescriptor screenDescriptor, IElementDescriptor parentElementDescriptor)
+            {
+                _screenDescriptor = screenDescriptor;
+                _parentElementDescriptor = parentElementDescriptor;
+                _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/hje_x0tPX0yEFcRe_XAjZw", DisplayName = "ImmigrationCheckpoint", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
             }
         }
     }
@@ -80,6 +182,27 @@ namespace Tourist_Assistant._Implementation
         }
     }
 
+    namespace _OpenWebPage._Travelinformation
+    {
+        public class __TravelDate : IElementDescriptor
+        {
+            private readonly IScreenDescriptor _screenDescriptor;
+            private readonly IElementDescriptor _parentElementDescriptor;
+            private readonly IElementDescriptorDefinition _elementDescriptor;
+            public IElementDescriptorDefinition GetDefinition()
+            {
+                return _elementDescriptor;
+            }
+
+            public __TravelDate(IScreenDescriptor screenDescriptor, IElementDescriptor parentElementDescriptor)
+            {
+                _screenDescriptor = screenDescriptor;
+                _parentElementDescriptor = parentElementDescriptor;
+                _elementDescriptor = new ElementDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/5wXwHi77IEer6g7QpjnkIA", DisplayName = "TravelDate", Element = this, ParentElement = _parentElementDescriptor, Screen = screenDescriptor};
+            }
+        }
+    }
+
     namespace _OpenWebPage
     {
         public class __Travelinformation : IScreenDescriptor
@@ -93,13 +216,28 @@ namespace Tourist_Assistant._Implementation
             public __Travelinformation()
             {
                 _screenDescriptor = new ScreenDescriptorDefinition{Reference = "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g", DisplayName = "Travelinformation", Screen = this};
+                ChooseFirst = new _Implementation._OpenWebPage._Travelinformation.__ChooseFirst(this, null);
                 CommercialFlight = new _Implementation._OpenWebPage._Travelinformation.__CommercialFlight(this, null);
+                Country = new _Implementation._OpenWebPage._Travelinformation.__Country(this, null);
+                FlightNum = new _Implementation._OpenWebPage._Travelinformation.__FlightNum(this, null);
+                ImmigrationCheckpoint = new _Implementation._OpenWebPage._Travelinformation.__ImmigrationCheckpoint(this, null);
                 PrivateFlight = new _Implementation._OpenWebPage._Travelinformation.__PrivateFlight(this, null);
+                TravelDate = new _Implementation._OpenWebPage._Travelinformation.__TravelDate(this, null);
             }
+
+            public _Implementation._OpenWebPage._Travelinformation.__ChooseFirst ChooseFirst { get; private set; }
 
             public _Implementation._OpenWebPage._Travelinformation.__CommercialFlight CommercialFlight { get; private set; }
 
+            public _Implementation._OpenWebPage._Travelinformation.__Country Country { get; private set; }
+
+            public _Implementation._OpenWebPage._Travelinformation.__FlightNum FlightNum { get; private set; }
+
+            public _Implementation._OpenWebPage._Travelinformation.__ImmigrationCheckpoint ImmigrationCheckpoint { get; private set; }
+
             public _Implementation._OpenWebPage._Travelinformation.__PrivateFlight PrivateFlight { get; private set; }
+
+            public _Implementation._OpenWebPage._Travelinformation.__TravelDate TravelDate { get; private set; }
         }
     }
 

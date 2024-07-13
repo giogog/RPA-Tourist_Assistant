@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Country",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "tSJySl7500OHuUYA349CPg",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/tSJySl7500OHuUYA349CPg",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-10T22:41:41.1476069Z",
+  "Updated": "2024-07-10T22:43:56.7614001Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

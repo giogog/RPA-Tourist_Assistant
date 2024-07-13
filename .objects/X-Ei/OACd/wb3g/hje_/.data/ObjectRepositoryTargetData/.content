@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NQ3_xNkSxEO9_JnMpFnTDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosViaje" CVScreenId="7b2b9008-afde-4964-bfad-462f48773a15" CvElementArea="444, 619, 856, 63" CvType="InputBox" DesignTimeRectangle="446, 621, 854, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='PuntoControl-selected' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='PuntoControl-selected' tag='INPUT' type='text' class='autocomplete' placeholder='Enter the city of entry into the country' aaname='' /&gt;" Guid="603fb05c-c34f-463d-af1a-0368326bf34a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7b2b9008-afde-4964-bfad-462f48773a15" CvTextArea="445, 590, 178, 17" CvTextArgument="* Immigration checkpoint" CvType="Text" DesignTimeRectangle="446, 585, 854, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='dialog_2' tag='LABEL' innertext='* Immigration checkpoint' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dialog_2' tag='LABEL' innertext='* Immigration checkpoint' type='' class='' aaname='* Immigration checkpoint' check:text='* Immigration checkpoint' /&gt;" Guid="e06fff67-1803-4891-b345-2b1bf14deb30" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="74b313611daff0bef9f1e422f7e8fe21.png" xmlns="">0GooGyakzC0yRRAF-wEPYoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
