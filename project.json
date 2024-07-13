@@ -55,8 +55,20 @@
       "output": []
     },
     {
-      "filePath": "Infrastructure\\test.cs",
-      "uniqueId": "6f81687c-71f6-41c8-b3ca-ab63ed4c22e7",
+      "filePath": "WorkFlows\\EmailWorkflow.cs",
+      "uniqueId": "f1f0027e-a206-4838-9f7f-32f9d5b9baba",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WorkFlows\\TypeOfJourneyWorkflow.cs",
+      "uniqueId": "9c7a75c3-9bdd-486d-ac9a-3a3f0fd07653",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WorkFlows\\TravelInformationlWorkFlow.cs",
+      "uniqueId": "ebfc8364-2f17-4a47-8b38-8a1eca6f2beb",
       "input": [],
       "output": []
     }

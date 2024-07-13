@@ -1,12 +1,10 @@
 using Domain.Helpers;
-using Domain.Models;
 using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Net.Mail;
-using System.Threading.Tasks;
 using UiPath.Mail;
 using UiPath.Mail.Activities.Api;
 
@@ -32,11 +30,11 @@ namespace Application.Service
             return emails
                 .Where(m=>m.DateAsDateTime() > MailOptions.StartDate && m.DateAsDateTime() < MailOptions.EndDate)
                 .Where(m=>m.Subject.Contains("Re") == false)
-                .Where(m=>m.Subject.Contains("EN") || m.Subject.Contains("ES"))
+                .Where(m=>m.Subject.Contains("EN"))
                 .ToList();
         }
         
-        public Dictionary<string, List<string>> ParseEmailMessage(MailMessage message){
+        public static Dictionary<string, List<string>> ParseEmailMessage(MailMessage message){
             
             var doc = new HtmlDocument();
             doc.LoadHtml(message.BodyAsHtml());

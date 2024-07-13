@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Domain.Models;
+namespace Tourist_Assistant.Domain.Models;
 public class Email
 {
     private int _numberOfTourists = 1;

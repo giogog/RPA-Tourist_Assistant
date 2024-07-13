@@ -1,45 +1,40 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Net.Mail;
 using System.Threading.Tasks;
-using Application.Service;
-using Tourist_Assistant.Controllers;
+using Tourist_Assistant.WorkFlows;
 using Tourist_Assistant.Domain.Helpers;
 using UiPath.CodedWorkflows;
 using UiPath.Mail;
 
 namespace Tourist_Assistant;
-public class Main:ControllerBase
+public class Main:WorkflowBase
 {
 
     [Workflow]
     public async Task Execute()
     {
         
-        var EmailsTask = Task.Run(() => ExecuteMailRetrievalWorkFlow()); 
-        var OpenPageTask = OpenBrowserlWorkFlow();
+        var emailWorkflowResult = await RunWorkflowAsync("WorkFlows\\EmailWorkflow.cs");
+        var emails = (List<MailMessage>)emailWorkflowResult["Output"];
         
         
-        await Task.WhenAll(EmailsTask,OpenPageTask);
-        
-        var emails = await EmailsTask;
-        //var stringBuilder = new StringBuilder();
         foreach (var message in emails)
         {      
             Log(message.Subject +" "+message.DateAsDateTime().ToString());
             
        
-            var context = await ExecuteMailParseWorkFlow(message);
-            await CheckMiglWorkFlow();
-            
+            var context = await ExecuteMailParse(message);            
             var emailContext = context.FillEmailModel();
             
+            await RunWorkflowAsync("WorkFlows\\TypeOfJourneyWorkflow.cs", new Dictionary<string,object> 
+            { 
+                { "journeyType", emailContext.JourneyType } 
+            });
             
-            
-            await TypeOfJourneylWorkFlow(emailContext.JourneyType);
-                
-            await TravelInformationlWorkFlow(emailContext);    
+            await RunWorkflowAsync("WorkFlows\\TravelInformationlWorkFlow.cs", new Dictionary<string,object> 
+            { 
+                { "emailContext", emailContext } 
+            });
                 
    
             
@@ -47,8 +42,6 @@ public class Main:ControllerBase
             
          
         }
-        //string text = stringBuilder.ToString();
-        //System.IO.File.WriteAllText("rame.txt",text);
     }
 
 
