@@ -34,6 +34,19 @@
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "Infrastructure/GetCountry.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "country_dt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Country",
+        "in_Country"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }

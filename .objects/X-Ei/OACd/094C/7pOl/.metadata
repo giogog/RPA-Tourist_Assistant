@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Nationality",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "7pOlPuCWwUScnPw2eeCSbA",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/7pOlPuCWwUScnPw2eeCSbA",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/094CeSVphkqyPDpdSzFoiw",
+  "Created": "2024-07-13T20:03:13.5768774Z",
+  "Updated": "2024-07-13T20:03:55.8178774Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

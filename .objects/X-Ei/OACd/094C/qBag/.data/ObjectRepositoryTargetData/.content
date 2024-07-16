@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IBO2L_uOZkelAEtrdtYxBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="fd3f4728-e7a2-437e-be60-2bf1476f986f" CvTextArea="596, 598, 188, 14" CvTextArgument="CEDULA DE CIUDADANIA" CvType="Text" DesignTimeRectangle="581, 586, 218, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='CEDULA DE CIUDADANIA' parentid='dropdown-TipoDocumento' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CEDULA DE CIUDADANIA' parentid='dropdown-TipoDocumento' tag='A' type='' class='' check:innerText='CEDULA DE CIUDADANIA' /&gt;" Guid="3927dfa9-3fab-498a-bafe-a576a6a62234" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b2abbfd7f95f12d3b94e471a2d5220b.png" xmlns="">0evzcWxIE50-dIgr6uXFb_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

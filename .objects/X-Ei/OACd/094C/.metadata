@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Personalinformation",
+  "Type": "Screen",
+  "Id": "094CeSVphkqyPDpdSzFoiw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/094CeSVphkqyPDpdSzFoiw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-13T20:02:55.2825746Z",
+  "Updated": "2024-07-13T20:03:03.5742395Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xLAV-xPNPU6cC8_BgCljww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="8ef1487e-3306-4ea7-8db5-10ebb0afa8ea" CvElementArea="1124, 1031, 419, 63" CvType="InputBox" DesignTimeRectangle="1127, 1033, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ConfirmacionCorreo' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ConfirmacionCorreo' tag='INPUT' type='email' class='' placeholder='Confirm your email' aaname='' /&gt;" Guid="b556be62-9261-451d-bdf6-f50a5c609ba2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1127, 997, 415, 27" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;form&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;legend' idx='5' parentid='dialog_1' tag='LEGEND' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dialog_1' tag='LEGEND' aaname='* Confirm your E-mail' check:innerText='* Confirm your E-mail' /&gt;" Guid="716a7647-96be-4479-be92-6c551b20d253" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84eed84e5f483d8fad98274acc827462.png" xmlns="">0xYAuLCeEok24-XyOBhWqTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

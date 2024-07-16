@@ -6,8 +6,8 @@
   "OriginalIconFileName": null,
   "Arguments": [
     {
-      "Name": "emailContext",
-      "DisplayName": "emailContext",
+      "Name": "Output",
+      "DisplayName": "Output",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,
@@ -18,8 +18,8 @@
       "DataSourceItems": null
     },
     {
-      "Name": "Output",
-      "DisplayName": "Output",
+      "Name": "clientContext",
+      "DisplayName": "clientContext",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,

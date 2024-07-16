@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9qEnmp8-cUWocakQ238D2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="5cc2fbb2-be0d-4b2e-a9a9-9ccfd4050665" CvTextArea="596, 498, 92, 14" CvTextArgument="PASAPORTE" CvType="Text" DesignTimeRectangle="581, 486, 230, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='PASAPORTE' parentid='dropdown-TipoDocumento' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='PASAPORTE' parentid='dropdown-TipoDocumento' tag='A' type='' class='' check:innerText='PASAPORTE' /&gt;" Guid="b3ff83cf-eb7c-42a7-a4a0-4b46234f35a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7a3e223cee07c55bba9f547d855024e.png" xmlns="">0xOVoFnO0DUOs4M5k72ELqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -10,14 +10,14 @@ namespace Tourist_Assistant.WorkFlows
     [System.ComponentModel.Browsable(false)]
     public class TravelInformationlWorkFlowActivity : System.Activities.Activity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Email> emailContext { get; set; }
+        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
 
         public TravelInformationlWorkFlowActivity()
         {
             this.Implementation = () =>
             {
                 return new TravelInformationlWorkFlowActivityChild()
-                {emailContext = (this.emailContext == null ? (InArgument<Tourist_Assistant.Domain.Models.Email>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Domain.Models.Email>(), "emailContext") : (InArgument<Tourist_Assistant.Domain.Models.Email>)Argument.CreateReference((Argument)this.emailContext, "emailContext")), };
+                {clientContext = (this.clientContext == null ? (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Domain.Models.Client>(), "clientContext") : (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)this.clientContext, "clientContext")), };
             };
         }
     }
@@ -25,7 +25,7 @@ namespace Tourist_Assistant.WorkFlows
     [System.ComponentModel.Browsable(false)]
     internal class TravelInformationlWorkFlowActivityChild : UiPath.CodedWorkflows.AsyncTaskCodedWorkflowActivity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Email> emailContext { get; set; }
+        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
 
         public System.Collections.Generic.IDictionary<string, object> newResult { get; set; }
 
@@ -38,7 +38,7 @@ namespace Tourist_Assistant.WorkFlows
         {
             var codedWorkflow = new global::Tourist_Assistant.Workflows.TravelInformationlWorkFlow();
             CodedWorkflowHelper.Initialize(codedWorkflow, context);
-            await codedWorkflow.Execute(emailContext.Get(context));
+            await codedWorkflow.Execute(clientContext.Get(context));
             ;
             return endContext =>
             {

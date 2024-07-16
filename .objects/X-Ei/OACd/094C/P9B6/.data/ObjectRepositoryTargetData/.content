@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-_BFO4DrjkOAaBArM1krbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="a7e0d329-bb9e-4b6a-bfae-b209ee61dae0" CvElementArea="872, 483, 270, 62" CvType="InputBox" DesignTimeRectangle="873, 485, 268, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='NumeroDocumento' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='NumeroDocumento' tag='INPUT' type='text' class='' placeholder='Enter your document number' aaname='' /&gt;" Guid="1823d9d2-560e-4b9a-a1a3-d801024c6e32" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a7e0d329-bb9e-4b6a-bfae-b209ee61dae0" CvTextArea="872, 454, 86, 14" CvTextArgument="* ID Number" CvType="Text" DesignTimeRectangle="873, 449, 268, 27" FullSelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* ID Number' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* ID Number' type='' class='' aaname='* ID Number' check:text='* ID Number' /&gt;" Guid="e818379c-2def-4d4e-8624-3e127a8563d3" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f60e67baa5f018c680130bf8285033ca.png" xmlns="">0JemSKXc3C0idpRYUMJNM4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

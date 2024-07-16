@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9z5VXm8W5kOa7FLWMlYPxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="8ef1487e-3306-4ea7-8db5-10ebb0afa8ea" CvElementArea="686, 1031, 418, 63" CvType="InputBox" DesignTimeRectangle="688, 1033, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Correo' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Correo' tag='INPUT' type='email' class='' placeholder='Enter your email' aaname='' /&gt;" Guid="b78d8f67-b62f-4a6d-9295-8972ae7569f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8ef1487e-3306-4ea7-8db5-10ebb0afa8ea" CvTextArea="686, 1002, 57, 14" CvTextArgument="* E-mail" CvType="Text" DesignTimeRectangle="688, 997, 415, 27" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;form&amp;gt;div&amp;gt;fieldset&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;legend' idx='4' parentid='dialog_1' tag='LEGEND' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dialog_1' tag='LEGEND' aaname='* E-mail' check:innerText='* E-mail' /&gt;" Guid="c74cc96a-7bfe-4bb6-b3c6-877a8580d9b8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a4772a76c59fb57e6e94542599957f94.png" xmlns="">0aMLm6BwPJ0W7sdBr6D6gAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

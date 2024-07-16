@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CssGx4Tz1EOwzViVHJwQUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="1029a39b-a53d-4a12-821b-5557adb98798" CvElementArea="725, 611, 418, 63" CvType="InputBox" DesignTimeRectangle="727, 613, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='SegundoApellido' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='SegundoApellido' tag='INPUT' type='text' class='' placeholder='Enter your second last name' aaname='' /&gt;" Guid="781ff688-db82-411b-9942-fefb785d9703" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1029a39b-a53d-4a12-821b-5557adb98798" CvTextArea="725, 582, 126, 14" CvTextArgument="Second last name" CvType="Text" DesignTimeRectangle="727, 577, 415, 27" FullSelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='Second last name' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='Second last name' type='' class='' aaname='Second last name' check:text='Second last name' /&gt;" Guid="3ff7ee52-3d73-4c32-8c3f-23122f6d3be8" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8d3ddb291a0124a5ba451663a1aeeb3a.png" xmlns="">0XxioV3Dop0yjqH2U0LiJEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

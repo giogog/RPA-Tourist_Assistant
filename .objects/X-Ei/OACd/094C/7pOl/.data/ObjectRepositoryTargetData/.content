@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ip7ULuB8EkqRQrlkwL-LUg" Reference="o1OyEP-s8UWNQQHnvTl1FA/7pOlPuCWwUScnPw2eeCSbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="33daa8fc-8b49-4e60-9e7c-7ff2148063e7" CvElementArea="287, 283, 270, 62" CvType="InputBox" DesignTimeRectangle="288, 285, 268, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Nacionalidad-selected' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Nacionalidad-selected' tag='INPUT' type='text' class='autocomplete' placeholder='Enter and select your nationality' aaname='' /&gt;" Guid="e3aa2de9-b221-4d6a-be57-4f023970946f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="33daa8fc-8b49-4e60-9e7c-7ff2148063e7" CvTextArea="286, 254, 88, 17" CvTextArgument="* Nationality" CvType="Text" DesignTimeRectangle="288, 249, 268, 27" FullSelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* Nationality' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* Nationality' type='' class='' aaname='* Nationality' check:text='* Nationality' /&gt;" Guid="a2f79e37-3d41-40b9-89f3-123abcfcac7e" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="25b546a2ed6722a27c5a99780a89ade0.png" xmlns="">03haVyAPVc0y7dMZwFzTrxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

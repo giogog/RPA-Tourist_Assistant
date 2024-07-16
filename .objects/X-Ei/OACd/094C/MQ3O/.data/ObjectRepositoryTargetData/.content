@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lcLZxBEcSk-NLr5nrvzJYA" Reference="o1OyEP-s8UWNQQHnvTl1FA/MQ3OcyYrJU2UR0ORWcztAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="36c89deb-de3f-4b23-932e-bebfeec37db7" CvTextArea="383, 638, 70, 14" CvTextArgument="TOURISM" CvType="Text" DesignTimeRectangle="369, 626, 211, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='TOURISM' parentid='dropdown-MotivoViaje' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='TOURISM' parentid='dropdown-MotivoViaje' tag='A' type='' class='' check:innerText='TOURISM' /&gt;" Guid="800a1c9f-ae80-42ae-8e76-f94f215b9873" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6070ccba595ccfd88d8cec597cc0940e.png" xmlns="">0a8RbpSH7fEmwp9jAXTm1Vw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "ConfirmEmail",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "Z7A0KkTtzU2xtEXlGpzYnw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/Z7A0KkTtzU2xtEXlGpzYnw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/094CeSVphkqyPDpdSzFoiw",
+  "Created": "2024-07-13T20:25:59.9689241Z",
+  "Updated": "2024-07-13T20:26:16.0072451Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

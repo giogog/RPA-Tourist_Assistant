@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fcHviEHX5kiLgQHNFCfbug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosBiograficos" CVScreenId="68e5c4a7-d286-42a1-8cc6-1d918018d64d" CvElementArea="286, 611, 418, 63" CvType="InputBox" DesignTimeRectangle="288, 613, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='PrimerApellido' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='PrimerApellido' tag='INPUT' type='text' class='' placeholder='Enter your first last name' aaname='' /&gt;" Guid="19a23996-d7eb-45a9-b54d-718b6aeb82c5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="68e5c4a7-d286-42a1-8cc6-1d918018d64d" CvTextArea="286, 582, 116, 14" CvTextArgument="* First last name" CvType="Text" DesignTimeRectangle="288, 577, 415, 27" FullSelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* First last name' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LEGEND' visibleinnertext='* First last name' type='' class='' aaname='* First last name' check:text='* First last name' /&gt;" Guid="4cfaf2a3-7499-4272-8b42-15480f2eee29" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ded356ec6981dea50db3087e0fed264.png" xmlns="">0WK0MfJP-sUW6xvFePK7epQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

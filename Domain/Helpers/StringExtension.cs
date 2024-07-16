@@ -9,4 +9,14 @@ public static class StringExtensions
     {
         return new string(input.Where(char.IsDigit).ToArray());
     }
+    public static string ToProperCase(this string str)
+    {
+        if (string.IsNullOrEmpty(str))
+        {
+            return str;
+        }
+
+        string lowerCaseStr = str.ToLower();
+        return char.ToUpper(lowerCaseStr[0]) + lowerCaseStr.Substring(1);
+    }
 }

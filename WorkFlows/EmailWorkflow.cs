@@ -9,7 +9,7 @@ using UiPath.Mail;
 
 namespace Tourist_Assistant.WorkFlows
 {
-    public class EmailWorkflow : CodedWorkflow
+    public class EmailWorkflow : WorkflowBase
     {
         private EmailService _mailService;
         [Workflow]
@@ -31,7 +31,7 @@ namespace Tourist_Assistant.WorkFlows
             Log("Mail Retrival");
             //var result = RunWorkflow("Infrastructure\\GetDates.xaml");
             DateTime startDate = new DateTime(2024,7,13,0,0,0);
-            DateTime endDate = new DateTime(2024,7,13,23,59,0);
+            DateTime endDate = new DateTime(2024,7,13,22,59,0);
             _mailService = new EmailService(mail);
             
             
@@ -50,7 +50,7 @@ namespace Tourist_Assistant.WorkFlows
         public async Task OpenBrowser()
         {
             Log("Open Browser");
-            uiAutomation.Open("WebPage");
+            uiAutomation.Open("WebPage",_targetAppOptions);
         }
     }
 }
