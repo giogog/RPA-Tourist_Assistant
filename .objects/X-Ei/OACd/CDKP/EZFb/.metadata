@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Continue",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "EZFbZziUGUq2yrTJCpdvug",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/EZFbZziUGUq2yrTJCpdvug",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/CDKPItw8SkOX7xiUobn1yg",
+  "Created": "2024-07-17T11:53:53.6889267Z",
+  "Updated": "2024-07-17T11:54:03.290211Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

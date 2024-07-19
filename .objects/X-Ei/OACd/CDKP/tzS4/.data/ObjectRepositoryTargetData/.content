@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EOGqzUGcuUKvzpnQzKtlKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosHospedaje" CVScreenId="ac2ff457-1e96-4808-b834-278aea9e4239" CvElementArea="1124, 671, 419, 63" CvType="InputBox" DesignTimeRectangle="1127, 673, 415, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Telefono' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='Telefono' tag='INPUT' type='text' class='phone_us' placeholder='Enter your contact phone' aaname='* Phone number' /&gt;" Guid="e3a0a9ea-2ee5-4e8a-b98b-10d52b193693" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ac2ff457-1e96-4808-b834-278aea9e4239" CvTextArea="1126, 642, 115, 14" CvTextArgument="* Phone number" CvType="Text" DesignTimeRectangle="1127, 637, 415, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='* Phone number' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='* Phone number' tag='LABEL' type='' class='' check:innerText='* Phone number' /&gt;" Guid="ca862eac-6b9c-46bb-9f26-74d41f6fb672" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="762c5ef8e3c5133524e5bbaa9bc2afa6.png" xmlns="">07zqktTJxe063JXSJwxaung</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

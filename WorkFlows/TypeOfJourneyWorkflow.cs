@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using UiPath.CodedWorkflows;
-using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 
 namespace Tourist_Assistant.WorkFlows
@@ -11,10 +10,12 @@ namespace Tourist_Assistant.WorkFlows
         public async Task Execute(string journeyType)
         {
             await CheckMig();
-                        
+                      
             //var _clickOptions = new ClickOptions{ InteractionMode = NChildInteractionMode.Simulate };
             Log("Complete TypeOfJourney Form " + journeyType);
+            ChangeTargetAppOptions(ta=>ta.WindowResize = NWindowResize.Maximize);
             var typeofjurneyScreen = uiAutomation.Attach("TypeOfJourney",_targetAppOptions);
+            await Task.Delay(2000);  
             if(journeyType=="Visiting Colombia" || journeyType=="Visitando Colombia")
                 typeofjurneyScreen.Click("toColombia",_clickOptions);
             else

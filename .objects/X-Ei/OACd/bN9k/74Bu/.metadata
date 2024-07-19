@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Accept",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "74BuG94i5UK7_WMrZ3xMgw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/74BuG94i5UK7_WMrZ3xMgw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/bN9k7lC6_0mY52QEXhRkfw",
+  "Created": "2024-07-17T12:03:04.7939443Z",
+  "Updated": "2024-07-17T12:25:19.9092574Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

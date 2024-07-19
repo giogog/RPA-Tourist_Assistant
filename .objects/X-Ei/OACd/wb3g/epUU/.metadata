@@ -1,0 +1,16 @@
+﻿{
+  "Name": "CheckError",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "epUUKLbcFUKUQI-qvSVyLA",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/epUUKLbcFUKUQI-qvSVyLA",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/wb3gXic5-UCuJypdbZjb2g",
+  "Created": "2024-07-17T10:32:31.7172314Z",
+  "Updated": "2024-07-17T10:33:34.7841763Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

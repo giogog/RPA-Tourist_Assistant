@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Address",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "T42SMtbo7EO_VK_wagukZQ",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/T42SMtbo7EO_VK_wagukZQ",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/CDKPItw8SkOX7xiUobn1yg",
+  "Created": "2024-07-17T10:56:56.7527105Z",
+  "Updated": "2024-07-17T10:57:08.807105Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

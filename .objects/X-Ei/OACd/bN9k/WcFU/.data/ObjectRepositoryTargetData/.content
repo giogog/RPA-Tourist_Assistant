@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-TpwlbgaDkCqcsvzd64uMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/GuardarPreregistro/ConfirmarPreRegistro" CVScreenId="d62332f1-1408-4876-a703-ffdd54a10a3f" CvElementArea="966, 631, 110, 56" CvTextArea="986, 650, 72, 15" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="969, 633, 106, 52" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='continuar' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='continuar' tag='BUTTON' type='submit' class='btn' aaname='Continue' check:innerText='Continue' /&gt;" Guid="b0a74295-4e0c-4aee-b2f5-da9d518adf70" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Confirmar Check-Mig -' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6d446875c0494cfbfb65cec28939760f.png" xmlns="">03lfSsSfANUmP1o6YUp6ySA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

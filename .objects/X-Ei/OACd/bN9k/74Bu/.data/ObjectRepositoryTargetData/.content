@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IJ1pFP7VxU6fWEBU2X0mig" Reference="o1OyEP-s8UWNQQHnvTl1FA/74BuG94i5UK7_WMrZ3xMgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/GuardarPreregistro/ConfirmarPreRegistro" CVScreenId="498418d3-1682-4043-9075-554b1cd321e1" CvElementArea="967, 597, 27, 27" CvTextArea="999, 602, 221, 17" CvTextArgument="Aceptar terminos y condiciones" CvType="CheckBox" DesignTimeRectangle="325, 589, 622, 27" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' innertext='Aceptar terminos y condiciones' parentclass='check-field' type='' class='' aaname='Aceptar terminos y condiciones' /&gt;" FuzzyAccuracy="0.44" FuzzySelectorArgument="&lt;webctrl tag='LABEL' innertext='Aceptar terminos y condiciones' parentclass='check-field' type='' class='' aaname='Aceptar terminos y condiciones' /&gt;" Guid="300115a9-1574-48b6-b4b8-94ffda38768c" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Confirmar Check-Mig -' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="457e1b75a83354394313bf49816be67c.png" xmlns="">0CdASrMbvqkG_V-DAWd1Q4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

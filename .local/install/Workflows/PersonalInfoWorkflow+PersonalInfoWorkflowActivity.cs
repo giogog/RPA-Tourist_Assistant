@@ -10,14 +10,14 @@ namespace Tourist_Assistant.WorkFlows
     [System.ComponentModel.Browsable(false)]
     public class PersonalInfoWorkflowActivity : System.Activities.Activity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
+        public InArgument<Tourist_Assistant.Application.Models.Client> clientContext { get; set; }
 
         public PersonalInfoWorkflowActivity()
         {
             this.Implementation = () =>
             {
                 return new PersonalInfoWorkflowActivityChild()
-                {clientContext = (this.clientContext == null ? (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Domain.Models.Client>(), "clientContext") : (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)this.clientContext, "clientContext")), };
+                {clientContext = (this.clientContext == null ? (InArgument<Tourist_Assistant.Application.Models.Client>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Application.Models.Client>(), "clientContext") : (InArgument<Tourist_Assistant.Application.Models.Client>)Argument.CreateReference((Argument)this.clientContext, "clientContext")), };
             };
         }
     }
@@ -25,7 +25,7 @@ namespace Tourist_Assistant.WorkFlows
     [System.ComponentModel.Browsable(false)]
     internal class PersonalInfoWorkflowActivityChild : UiPath.CodedWorkflows.AsyncTaskCodedWorkflowActivity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
+        public InArgument<Tourist_Assistant.Application.Models.Client> clientContext { get; set; }
 
         public System.Collections.Generic.IDictionary<string, object> newResult { get; set; }
 

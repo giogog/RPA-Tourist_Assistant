@@ -9,9 +9,10 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Infrastructure/GetDates.xaml",
+      "Path": "Sequences/GetDates.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Now_dt&Sequence_1",
         "StartDate&Sequence_1",
         "EndDate&Sequence_1"
       ],
@@ -23,7 +24,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Infrastructure/GoogleSearch.xaml",
+      "Path": "Sequences/GoogleSearch.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "googleData&Sequence_2"
@@ -36,7 +37,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Infrastructure/GetCountry.xaml",
+      "Path": "Sequences/GetCountry.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "country_dt&Sequence_1"
@@ -44,6 +45,62 @@
       "ArgumentsSectionElementsOrder": [
         "out_Country",
         "in_Country"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/NotRobot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/SendMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_subjectName",
+        "in_subjectEmail",
+        "in_persoanlIds"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/QuiteChrome.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/CreateReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "report_db&Sequence_1",
+        "Now_dt&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/CheckReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "index&Sequence_1",
+        "is_Found&Sequence_1",
+        "Now_dt&Sequence_1",
+        "report_db&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Status",
+        "in_Status",
+        "in_Email"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

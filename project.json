@@ -67,14 +67,20 @@
       "output": []
     },
     {
-      "filePath": "WorkFlows\\TravelInformationlWorkFlow.cs",
-      "uniqueId": "ebfc8364-2f17-4a47-8b38-8a1eca6f2beb",
+      "filePath": "WorkFlows\\PersonalInfoWorkflow.cs",
+      "uniqueId": "5bba5ec0-66f1-4fc3-92a3-0c93b12164f0",
       "input": [],
       "output": []
     },
     {
-      "filePath": "WorkFlows\\PersonalInfoWorkflow.cs",
-      "uniqueId": "5bba5ec0-66f1-4fc3-92a3-0c93b12164f0",
+      "filePath": "WorkFlows\\FinilizingWorkflow.cs",
+      "uniqueId": "4feb978d-157e-49a5-8c45-69065ea27598",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WorkFlows\\TravelInformationlWorkflow.cs",
+      "uniqueId": "d1dc181b-f364-4eec-b70a-c852aee22f55",
       "input": [],
       "output": []
     }

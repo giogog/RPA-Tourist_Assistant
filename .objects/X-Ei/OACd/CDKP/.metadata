@@ -1,0 +1,15 @@
+﻿{
+  "Name": "HostingData",
+  "Type": "Screen",
+  "Id": "CDKPItw8SkOX7xiUobn1yg",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/CDKPItw8SkOX7xiUobn1yg",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-17T10:56:26.4561095Z",
+  "Updated": "2024-07-17T10:56:37.0566531Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

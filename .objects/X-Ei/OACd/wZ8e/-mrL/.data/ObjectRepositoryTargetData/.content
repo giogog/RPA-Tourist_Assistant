@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e0tY4A6ZqkyS_K110MTJSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8690d7f8-56cb-4687-81ba-7d236026ee6d" CvElementArea="133, 605, 1055, 24" CvType="InputBox" DesignTimeRectangle="136, 609, 1031, 17" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' aaname='File name:' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' aaname='File name:' /&gt;" Guid="cceaba04-eff5-4ed7-bad5-757b49e48637" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Save As' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8690d7f8-56cb-4687-81ba-7d236026ee6d" CvTextArea="73, 611, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="18, 606, 115, 23" ElementType="Text" FullSelectorArgument="&lt;ctrl name='File name:' role='text' text='File name:' /&gt;" FuzzySelectorArgument="&lt;ctrl name='File name:' role='text' text='File name:' automationid='' check:text='File name:' /&gt;" Guid="e2b65a37-0a2d-40b7-8f06-bf24f5a3de2b" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5df567885194a64083c698e88327c281.png" xmlns="">0DMGYTRkXz0eXqDXqsp7YPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

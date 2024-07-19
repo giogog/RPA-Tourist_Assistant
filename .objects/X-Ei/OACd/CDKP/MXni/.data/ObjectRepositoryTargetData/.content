@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9-RHrUe4U0-rj5FQ93aLzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/DatosHospedaje" CVScreenId="92b70654-a04a-4ff7-8a46-052f784d2c3c" CvElementArea="686, 543, 855, 63" CvType="InputBox" DesignTimeRectangle="688, 545, 854, 60" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='CiudadHospedaje-selected' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='CiudadHospedaje-selected' tag='INPUT' type='text' class='autocomplete' placeholder='Enter and select your city of lodging' aaname='' /&gt;" Guid="dd3e7f6f-d455-4a56-8090-175d91352d77" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="92b70654-a04a-4ff7-8a46-052f784d2c3c" CvTextArea="687, 514, 39, 17" CvTextArgument="* City" CvType="Text" DesignTimeRectangle="688, 509, 854, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='* City' check:innerText='* City' /&gt;" Guid="906bca19-a923-404b-822a-97fb0da465aa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="81e74d311f0c221ee5b9ae92dbec0668.png" xmlns="">0phQBIhh7NEirmcJCglgTKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,386 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SendMail" this:SendMail.in_subjectEmail="wood2fly@gmail.com" this:SendMail.in_subjectName="Gio" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_subjectEmail" Type="InArgument(x:String)" />
+    <x:Property Name="in_persoanlIds" Type="InArgument(s:String[])" />
+    <x:Property Name="in_subjectName" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:SendMail.in_persoanlIds>
+    <InArgument x:TypeArguments="s:String[]">
+      <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">new string[]{"664104558"}</CSharpValue>
+    </InArgument>
+  </this:SendMail.in_persoanlIds>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>1872,3689</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="704,3624" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="642,173" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">in_subjectEmail</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application: application@checkmigcolombia.us - Mozilla Thunderbird" sap:VirtualizedContainerService.HintSize="642,3315" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="WindowMessages" OpenMode="IfNotOpen" ScopeGuid="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,2992" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'application@checkmigcol…'" sap:VirtualizedContainerService.HintSize="546,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="2aeefc21-2d25-4467-a968-0b33ceb03336" CvTextArea="103, 419, 151, 15" CvTextArgument="application@checkmigco.." CvType="Text" DesignTimeRectangle="105, 417, 150, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='application@dominicanrepubliceticket.us - Mozilla Thunderbird' role='application' /&gt;&lt;ctrl name='application@dominicanrepubliceticket.us' role='grouping' /&gt;&lt;ctrl name='application@checkmigcolombia.us' role='outline item' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='application@dominicanrepubliceticket.us - Mozilla Thunderbird' role='application' /&gt;&lt;ctrl name='application@dominicanrepubliceticket.us' role='grouping' /&gt;&lt;ctrl name='application@checkmigcolombia.us' role='outline item' /&gt;&lt;ctrl role='grouping' automationid='' check:fulltext='application@checkmigcolombia.us' /&gt;" Guid="8eda5bde-49f3-42a3-8922-a414b276a589" InformativeScreenshot="83add537bbccd348bc8c458335a06d43.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' title='application@dominicanrepubliceticket.us - Mozilla Thunderbird' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Message'" sap:VirtualizedContainerService.HintSize="546,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="6f1b224b-8d41-421e-a580-d6dc0a23ead1" CvElementArea="102, 58, 118, 34" CvType="Button" DesignTimeRectangle="104, 60, 115, 30" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='application@checkmigcolombia.us - Mozilla Thunderbird' role='application' /&gt;&lt;ctrl name='application@checkmigcolombia.us' role='grouping' /&gt;&lt;ctrl name='New Message' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='application@checkmigcolombia.us - Mozilla Thunderbird' role='application' /&gt;&lt;ctrl name='application@checkmigcolombia.us' role='grouping' /&gt;&lt;ctrl name='New Message' role='push button' automationid='' check:text='New Message' /&gt;" Guid="e8e07be5-3627-48fc-af36-8a5c71d4cb53" InformativeScreenshot="4b76e3626eab273a935a1df62abe05ad.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' title='application@checkmigcolombia.us - Mozilla Thunderbird' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'To'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="546,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="1d86823d-b6cd-4a23-b2ee-557faaca3b1a" CvElementArea="134, 132, 674, 31" CvType="InputBox" DesignTimeRectangle="137, 136, 669, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='To' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='To' role='editable text' automationid='' /&gt;" Guid="7df68487-4237-47c9-830a-bd7f81eadc44" InformativeScreenshot="11bdefcd30c48c521c4ebed69c7159a8.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' title='Write: (no subject) - Thunderbird' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="1d86823d-b6cd-4a23-b2ee-557faaca3b1a" CvTextArea="112, 142, 15, 12" CvTextArgument="To" CvType="Text" DesignTimeRectangle="114, 140, 12, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='To' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='To' role='text' automationid='' check:text='To' /&gt;" Guid="37e450f5-e470-426d-b591-4d48b44e237c" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">in_subjectEmail</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Subject'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="546,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="9c496ce3-96f2-4d2a-a9ca-945634994038" CvElementArea="137, 167, 670, 29" CvType="InputBox" DesignTimeRectangle="136, 168, 671, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='Subject' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='Subject' role='editable text' automationid='' /&gt;" Guid="a3b3d9f0-952d-43a6-9f1e-509b75861212" InformativeScreenshot="3ef691d6687947081863c2cc75f691df.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' title='Write: (no subject) - Thunderbird' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="9c496ce3-96f2-4d2a-a9ca-945634994038" CvTextArea="86, 177, 42, 15" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="88, 175, 39, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='Subject' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='Subject' role='text' automationid='' check:text='Subject' /&gt;" Guid="9f59e1a1-04d5-49ac-9ac9-6e2b77ea9fe1" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"Your Colombia Check MIG Code - "+ in_subjectName</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="{x:Null}" ClickType="Single" DisplayName="Click 'about:blank?compose'" sap:VirtualizedContainerService.HintSize="546,225" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="8, 227, 807, 1134" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl role='application' /&gt;&lt;ctrl name='Message body' role='grouping' /&gt;&lt;ctrl name='Message body' role='document' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Write: (no subject) - Thunderbird' role='application' /&gt;&lt;ctrl name='Message body' role='grouping' /&gt;&lt;ctrl name='Message body' role='document' automationid='' check:text='about:blank?compose' /&gt;" Guid="d35696d0-f969-42c9-bea8-6f672cc11095" ImageBase64="" InformativeScreenshot="904ceb58c04b4aaa171a76bcb9864637.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'about:blank?compose'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="546,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="8, 227, 807, 1134" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl role='application' /&gt;&lt;ctrl name='Message body' role='grouping' /&gt;&lt;ctrl name='Message body' role='document' /&gt;" FuzzySelectorArgument="&lt;ctrl role='application' /&gt;&lt;ctrl name='Message body' role='grouping' /&gt;&lt;ctrl name='Message body' role='document' automationid='' check:text='about:blank?compose' /&gt;" Guid="e5d0180b-5afd-4ec6-817d-d4113ab7f554" InformativeScreenshot="e0093cc0a9f92376a8fe00f8b57219fb.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6" xml:space="preserve">"Dear,\n" +
+    "Attached you will find your approved Check MIG for visiting Colombia.\n" +
+    "We would like to kindly ask you to keep the file on a mobile device as well as to print a hard copy and keep it among your travel documents. You will need it to board your flight, and you may be asked to present it upon arrival in Colombian soil.\n" +
+    "We wish you a safe flight and a pleasant stay in Colombia!\n" +
+    "Kind regards,\n" +
+    "Check MIG Colombia\n" +
+    "info@checkmigcolombia.us\n" +
+    "Help Desk"</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each id" sap:VirtualizedContainerService.HintSize="546,1367" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:String" Name="id" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,1221" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Attach'" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="325d8d43-09bd-4942-8bf5-e75f2e4c6760" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="56249848-64fb-44a6-a937-7401cf4a5380" CvTextArea="745, 63, 38, 12" CvTextArgument="Attach" CvType="Text" DesignTimeRectangle="721, 57, 92, 24" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl role='application' /&gt;&lt;ctrl name='Composition Toolbar' role='tool bar' /&gt;&lt;ctrl name='Attach' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl role='application' /&gt;&lt;ctrl name='Composition Toolbar' role='tool bar' /&gt;&lt;ctrl name='Attach' role='push button' automationid='' check:text='Attach' /&gt;" Guid="c3fd7487-41be-49f4-9193-74112cc4025c" InformativeScreenshot="d00fd32dd224e78e63f1f40c16a04f5c.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Attach File(s)" sap:VirtualizedContainerService.HintSize="450,908" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="WindowMessages" ScopeGuid="1866c8fd-6c77-4dd8-866f-bf5bdf8d0005" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,594" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="1866c8fd-6c77-4dd8-866f-bf5bdf8d0005" Version="V3">
+                              <uix:NTypeInto.Target>
+                                <uix:TargetAnchorable CVScreenId="ffb6ce6e-22e4-4cc9-bfa3-14e63240c8cd" CvElementArea="195, 644, 781, 26" CvType="InputBox" DesignTimeRectangle="201, 650, 754, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' aaname='File name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' aaname='File name:' /&gt;" Guid="5d9e5bc0-f172-42ee-8fc0-a72221bf033d" InformativeScreenshot="3a61df4e233bef50db2caa137979ccc5.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='#32770' title='Attach File(s)' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="ffb6ce6e-22e4-4cc9-bfa3-14e63240c8cd" CvTextArea="137, 650, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 649, 54, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' check:text='File &amp;amp;name:' /&gt;" Guid="bc520c21-c5b7-4477-a6e1-d14c851de330" SearchSteps="Selector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NTypeInto.Target>
+                              <uix:NTypeInto.Text>
+                                <InArgument x:TypeArguments="x:String">
+                                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"C:\\Users\\Gio\\Documents\\UiPath\\TouristAssistant\\PDFs\\" + id + ".pdf"</CSharpValue>
+                                </InArgument>
+                              </uix:NTypeInto.Text>
+                              <uix:NTypeInto.VerifyOptions>
+                                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                </uix:VerifyExecutionTypeIntoOptions>
+                              </uix:NTypeInto.VerifyOptions>
+                            </uix:NTypeInto>
+                            <uix:NClick ActivateBefore="{x:Null}" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="354,218" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1866c8fd-6c77-4dd8-866f-bf5bdf8d0005" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="a0cee647-0ab3-4953-9d00-b1725ee9d9d3" CvElementArea="986, 674, 90, 27" CvType="InputBox" DesignTimeRectangle="987, 674, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="9f233705-5476-4bd9-a919-82d44958d522" InformativeScreenshot="c5100e48fcd62f299f367803881522b3.png" ScopeSelectorArgument="&lt;wnd app='thunderbird.exe' cls='#32770' title='Attach File(s)' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                              <uix:NClick.VerifyOptions>
+                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                  <uix:VerifyExecutionOptions.Retry>
+                                    <InArgument x:TypeArguments="x:Boolean" />
+                                  </uix:VerifyExecutionOptions.Retry>
+                                  <uix:VerifyExecutionOptions.Timeout>
+                                    <InArgument x:TypeArguments="x:Double" />
+                                  </uix:VerifyExecutionOptions.Timeout>
+                                </uix:VerifyExecutionOptions>
+                              </uix:NClick.VerifyOptions>
+                            </uix:NClick>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="1360, 31, 1200, 720" FilePath="C:\\Program Files\\Mozilla Thunderbird\\thunderbird.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFrSURBVDhPjVOxasJQFM3QjroGIo2dBFc/IMQvaIcOTZF8QCRz69yhIKjf4lLooH6Dg8ZSOiYUxEIpJJrl9pyQhFqNzYFLcvPOOfe8l0Qpi91udxfH8Suu37iOwzDU06X/sd1urzzPE9M0Rdd1GY1GAhO/lAkmWiC/O44jaPMaDoc0GZNTCBDul8ulUOz7vhiGkRvU63WB+VdCPIZMXKvVEgHjB0GQm7TbbSbwEvJfYOHhtzgrimjS7XZltVoxwS35e6B4sVgciLNyXZeT33iw6PeBhR7FmqYdFdOUyYomu2XETIh+H1EUXa7X64jvGO1B0bRQTCDSU7/fl2q1elTMZNwe+kOIyDkMPprNpkynU7FtOxerqirz+bxYTOA0byaTidAAROF9pVJJPtmTkzNg+otlWdJqtRIT1mAwkM1mE0LsprRiMH6j0ZBOpyOz2YwTfTx7xI9ykVJOgxEh+EQ9YzvXOJOzdKkEFOUHtOpRm/l4BD0AAAAASUVORK5CYII=" InformativeScreenshot="e1d4ff5ffd047d48d364615c2a17f315.png" Selector="&lt;wnd app='thunderbird.exe' cls='#32770' title='Attach File(s)' /&gt;" Title="Attach File(s)" />
+                      </uix:NApplicationCard.TargetApp>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <ui:ForEach.Values>
+                <InArgument x:TypeArguments="sc:IEnumerable">
+                  <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">in_persoanlIds</CSharpValue>
+                </InArgument>
+              </ui:ForEach.Values>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEach>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="546,110" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+              <ui:MessageBox.Text>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">"Send"</CSharpValue>
+                </InArgument>
+              </ui:MessageBox.Text>
+            </ui:MessageBox>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 2576, 1408" FilePath="C:\\Program Files\\Mozilla Thunderbird\\thunderbird.exe" IconBase64="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" InformativeScreenshot="32bb6b3dda9bc9d75baf2cbba17cd348.png" Selector="&lt;wnd app='thunderbird.exe' cls='MozillaWindowClass' title='application@checkmigcolombia.us - Mozilla Thunderbird' /&gt;" Title="application@checkmigcolombia.us - Mozilla Thunderbird" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="642,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" ContinueOnError="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" Result="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="rame" DisplayName="Send SMTP Mail Message" Email="application@checkmigcolombia.us" EnableSSL="True" sap:VirtualizedContainerService.HintSize="354,169" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Password="1][1}ei\e5N5" Port="587" SecureConnection="StartTls" Server="smtp-mail.outlook.com" Subject="rame" To="gogoladzegio12@gmail.com">
+            <ui:SendMail.Files>
+              <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+            </ui:SendMail.Files>
+          </ui:SendMail>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

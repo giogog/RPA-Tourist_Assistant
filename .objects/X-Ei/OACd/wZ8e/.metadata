@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Download",
+  "Type": "Screen",
+  "Id": "wZ8e7PHWZEOu_yL0z_F0mg",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/wZ8e7PHWZEOu_yL0z_F0mg",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-17T12:08:23.4861073Z",
+  "Updated": "2024-07-17T12:08:31.871147Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

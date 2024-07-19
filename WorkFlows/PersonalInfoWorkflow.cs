@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Tourist_Assistant.Domain.Helpers;
-using Tourist_Assistant.Domain.Models;
+using Tourist_Assistant.Application.Helpers;
+using Tourist_Assistant.Application.Models;
 using UiPath.CodedWorkflows;
 using UiPath.UIAutomationNext.API.Models;
-using UiPath.UIAutomationNext.Enums;
 
 namespace Tourist_Assistant.WorkFlows
 {
@@ -13,13 +12,13 @@ namespace Tourist_Assistant.WorkFlows
         [Workflow]
         public async Task Execute(Client clientContext)
         {
-            
+            Log("PersonalInfoWorkflow");
             var personalInformationScreen = uiAutomation.Attach("Personalinformation");
-            
+            await Task.Delay(2000);
             //Nationality
-            var GetCountryTask = Task.Run(()=>RunWorkflow("Infrastructure\\GetCountry.xaml",new Dictionary<string,object> {{"in_Country", clientContext.PassportCountry}}));
+            var GetCountryTask = Task.Run(()=>RunWorkflow("Sequences\\GetCountry.xaml",new Dictionary<string,object> {{"in_Country", clientContext.PassportCountry}}));
             
-            Log(clientContext.PassportNum);
+            
             //ID Number
             personalInformationScreen.TypeInto("IdNumber",clientContext.PassportNum);
             
@@ -44,10 +43,10 @@ namespace Tourist_Assistant.WorkFlows
             
             var GetCountryTaskResult = await GetCountryTask;
             string nationality = (string)GetCountryTaskResult["out_Country"];
-            Log(nationality);
             string countrySelector = "<webctrl aaname='"+nationality.Trim()+"' parentid='dropdown-Nacionalidad' tag='A' />";
             personalInformationScreen.Click(Target.FromSelector(countrySelector),_clickOptions);
             //personalInformationScreen.TypeInto("Nationality",nationality);
+            
             await Task.Delay(1000);
             //Gender
             string genderSelector;
@@ -57,9 +56,7 @@ namespace Tourist_Assistant.WorkFlows
             else{
                 genderSelector = "<webctrl tag='LABEL' visibleinnertext='Other' />";
             }
-            personalInformationScreen.Click(Target.FromSelector(genderSelector),_clickOptions);
-            
-            Log(nationality);
+            personalInformationScreen.Click(Target.FromSelector(genderSelector),_clickOptions);;
             //ID type
             if(clientContext.PassportCountry.Contains("COLOMBIA")){
                 personalInformationScreen.Click("Cedula",_clickOptions);
@@ -75,7 +72,9 @@ namespace Tourist_Assistant.WorkFlows
             personalInformationScreen.TypeInto("Email","info@checkmigcolombia.us");
             personalInformationScreen.TypeInto("ConfirmEmail","info@checkmigcolombia.us");
             
-
+            RunWorkflow("Sequences\\NotRobot.xaml");
+            personalInformationScreen.Click("Continue",_clickOptions);
+            
 
         }
         

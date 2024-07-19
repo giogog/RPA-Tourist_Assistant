@@ -8,40 +8,45 @@ using System.Threading.Tasks;
 namespace Tourist_Assistant.WorkFlows
 {
     [System.ComponentModel.Browsable(false)]
-    public class TravelInformationlWorkFlowActivity : System.Activities.Activity
+    public class TravelInformationlWorkflowActivity : System.Activities.Activity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
+        public InArgument<Tourist_Assistant.Application.Models.Client> clientContext { get; set; }
 
-        public TravelInformationlWorkFlowActivity()
+        public OutArgument<System.String> Output { get; set; }
+
+        public TravelInformationlWorkflowActivity()
         {
             this.Implementation = () =>
             {
-                return new TravelInformationlWorkFlowActivityChild()
-                {clientContext = (this.clientContext == null ? (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Domain.Models.Client>(), "clientContext") : (InArgument<Tourist_Assistant.Domain.Models.Client>)Argument.CreateReference((Argument)this.clientContext, "clientContext")), };
+                return new TravelInformationlWorkflowActivityChild()
+                {clientContext = (this.clientContext == null ? (InArgument<Tourist_Assistant.Application.Models.Client>)Argument.CreateReference((Argument)new InArgument<Tourist_Assistant.Application.Models.Client>(), "clientContext") : (InArgument<Tourist_Assistant.Application.Models.Client>)Argument.CreateReference((Argument)this.clientContext, "clientContext")), Output = (this.Output == null ? (OutArgument<System.String>)Argument.CreateReference((Argument)new OutArgument<System.String>(), "Output") : (OutArgument<System.String>)Argument.CreateReference((Argument)this.Output, "Output")), };
             };
         }
     }
 
     [System.ComponentModel.Browsable(false)]
-    internal class TravelInformationlWorkFlowActivityChild : UiPath.CodedWorkflows.AsyncTaskCodedWorkflowActivity
+    internal class TravelInformationlWorkflowActivityChild : UiPath.CodedWorkflows.AsyncTaskCodedWorkflowActivity
     {
-        public InArgument<Tourist_Assistant.Domain.Models.Client> clientContext { get; set; }
+        public InArgument<Tourist_Assistant.Application.Models.Client> clientContext { get; set; }
+
+        public OutArgument<System.String> Output { get; set; }
 
         public System.Collections.Generic.IDictionary<string, object> newResult { get; set; }
 
-        public TravelInformationlWorkFlowActivityChild()
+        public TravelInformationlWorkflowActivityChild()
         {
-            DisplayName = "TravelInformationlWorkFlow";
+            DisplayName = "TravelInformationlWorkflow";
         }
 
         protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, System.Threading.CancellationToken cancellationToken)
         {
-            var codedWorkflow = new global::Tourist_Assistant.Workflows.TravelInformationlWorkFlow();
+            var codedWorkflow = new global::Tourist_Assistant.Workflows.TravelInformationlWorkflow();
             CodedWorkflowHelper.Initialize(codedWorkflow, context);
-            await codedWorkflow.Execute(clientContext.Get(context));
-            ;
+            var result = await codedWorkflow.Execute(clientContext.Get(context));
+            newResult = new System.Collections.Generic.Dictionary<string, object>{{"Output", result}};
             return endContext =>
             {
+                Output.Set(endContext, (System.String)newResult["Output"]);
             };
         }
     }

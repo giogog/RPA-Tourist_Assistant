@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using Application.Service;
+using Tourist_Assistant.Service;
 using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 
@@ -13,7 +13,8 @@ namespace Tourist_Assistant.WorkFlows
     {
         protected ClickOptions _clickOptions = new ClickOptions{ InteractionMode = NChildInteractionMode.Simulate };
         protected TypeIntoOptions _typeIntoOptions = new TypeIntoOptions{ InteractionMode = NChildInteractionMode.Simulate };
-        protected TargetAppOptions _targetAppOptions = new TargetAppOptions{ InteractionMode = NInteractionMode.HardwareEvents ,WindowResize = NWindowResize.None,OpenMode = NAppOpenMode.IfNotOpen  };
+        protected TargetAppOptions _targetAppOptions = new TargetAppOptions{ InteractionMode = NInteractionMode.HardwareEvents ,WindowResize = NWindowResize.None,OpenMode = NAppOpenMode.IfNotOpen,Timeout = 30 };
+        protected CheckStateOptions _checkStateOptions = new CheckStateOptions{ Mode = NCheckStateMode.WaitAppear,CheckVisibility=true };
         
         protected void ChangeClickOptions(Action<ClickOptions> clickOptions){
             clickOptions(_clickOptions);

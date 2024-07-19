@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using Application.Service;
+using Tourist_Assistant.Service;
 using Domain.Helpers;
 using UiPath.CodedWorkflows;
 using UiPath.Mail;
@@ -29,9 +29,10 @@ namespace Tourist_Assistant.WorkFlows
         public List<MailMessage> RetrieveMails()
         {
             Log("Mail Retrival");
-            //var result = RunWorkflow("Infrastructure\\GetDates.xaml");
-            DateTime startDate = new DateTime(2024,7,13,0,0,0);
-            DateTime endDate = new DateTime(2024,7,13,22,59,0);
+            //var result = RunWorkflow("Sequences\\GetDates.xaml");
+            DateTime startDate = new DateTime(2024,7,19,17,0,0);
+            DateTime endDate = new DateTime(2024,7,19,23,0,0);
+
             _mailService = new EmailService(mail);
             
             

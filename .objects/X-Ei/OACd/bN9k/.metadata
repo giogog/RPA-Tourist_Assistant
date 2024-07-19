@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Terms",
+  "Type": "Screen",
+  "Id": "bN9k7lC6_0mY52QEXhRkfw",
+  "Reference": "o1OyEP-s8UWNQQHnvTl1FA/bN9k7lC6_0mY52QEXhRkfw",
+  "ParentRef": "o1OyEP-s8UWNQQHnvTl1FA/OACdFHSyVU6J60bd9cZjZw",
+  "Created": "2024-07-17T12:02:45.8935949Z",
+  "Updated": "2024-07-17T12:02:57.9614058Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

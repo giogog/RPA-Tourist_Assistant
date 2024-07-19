@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uErrRuLnuEOcKtWBiBy3Qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://apps.migracioncolombia.gov.co/pre-registro/en/PrpPreregistroPreg" CVScreenId="87b1e8f4-4a38-44eb-84d4-f2ff13fba534" CvElementArea="1426, 675, 118, 57" CvTextArea="1446, 694, 79, 15" CvTextArgument="Continuar" CvType="Button" DesignTimeRectangle="1428, 677, 114, 53" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='btn' aaname='Continuar' check:text='Continuar' /&gt;" Guid="d3e97271-2a41-4abb-87c4-1a36c316f773" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Check-mig - Migración Colombia' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="591151ace4e81a43da51c0eb2e10befe.png" xmlns="">0IPDcejhJck-5jROgeu-XLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

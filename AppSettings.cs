@@ -4,7 +4,7 @@ namespace Tourist_Assistant;
 
 public static class AppSettings
 {
-    public static readonly string BasePath = "C:\\Users\\Geekster PC\\Documents\\UiPath\\Tourist_Assistant\\";
+    public static readonly string BasePath = "C:\\Users\\Gio\\Documents\\UiPath\\TouristAssistant\\";
 //    public static string GetWorkflowPath(string[] Folders,string WorkFlowName)
 //    {
 //        string path = BasePath;
