@@ -29,9 +29,9 @@ namespace Tourist_Assistant.WorkFlows
         public List<MailMessage> RetrieveMails()
         {
             Log("Mail Retrival");
-            //var result = RunWorkflow("Sequences\\GetDates.xaml");
-            DateTime startDate = new DateTime(2024,7,19,17,0,0);
-            DateTime endDate = new DateTime(2024,7,19,23,0,0);
+            var result = RunWorkflow("Sequences\\GetDates.xaml");
+            //DateTime startDate = new DateTime(2024,7,19,17,0,0);
+            //DateTime endDate = new DateTime(2024,7,19,23,0,0);
 
             _mailService = new EmailService(mail);
             
@@ -41,10 +41,10 @@ namespace Tourist_Assistant.WorkFlows
                             Top = 100, 
                             OrderByDate = EOrderByDate.NewestFirst, 
                             OnlyUnreadMessages = false,
-                            StartDate = startDate,
-                            EndDate = endDate    
-                            //StartDate = (DateTime)result["StartDate_dt"], 
-                            //EndDate = (DateTime)result["EndDate_dt"]    
+                            //StartDate = startDate,
+                            //EndDate = endDate    
+                            StartDate = (DateTime)result["StartDate_dt"], 
+                            EndDate = (DateTime)result["EndDate_dt"]    
                         });
         }
         
