@@ -9,7 +9,7 @@ namespace Tourist_Assistant.WorkFlows
         [Workflow]
         public async Task Execute(string journeyType)
         {
-            await CheckMig();
+            CheckMig();
                       
             //var _clickOptions = new ClickOptions{ InteractionMode = NChildInteractionMode.Simulate };
             Log("Complete TypeOfJourney Form " + journeyType);
@@ -27,7 +27,7 @@ namespace Tourist_Assistant.WorkFlows
                 
         }
         
-        public async Task CheckMig(){
+        public void CheckMig(){
             Log("Navigate to CheckMig");
             var homescreen = uiAutomation.Attach("WebPage",_targetAppOptions);
             homescreen.Click("Do Checkmig",_clickOptions);

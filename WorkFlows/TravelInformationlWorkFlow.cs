@@ -84,22 +84,22 @@ namespace Tourist_Assistant.Workflows
             
             var CheckErrorTask = Task.Run(() => CheckError(travelInformationScreen));
             travelInformationScreen.Click("Continue",_clickOptions);
-//            bool ErrorAppears = travelInformationScreen.WaitState("CheckError",NCheckStateMode.WaitAppear,3);
-//            if(ErrorAppears){
-//                Log("Error Appears");
-//                travelInformationScreen.Dispose();
-//                throw new Exception("Invalid Airport");
-//            }else{
-//                Log("Error not Appears");
+            bool ErrorAppears = travelInformationScreen.WaitState("CheckError",NCheckStateMode.WaitAppear,3);
+            if(ErrorAppears){
+                Log("Error Appears");
+                travelInformationScreen.Dispose();
+                throw new Exception("Invalid Airport");
+            }else{
+                Log("Error not Appears");
                 
-//            }
+            }
             await CheckErrorTask;
             
             return out_city;
         }    
         
         
-        public async Task CheckError(UiTargetApp travelInformationScreen)
+        public void CheckError(UiTargetApp travelInformationScreen)
         {
            bool ErrorAppears = travelInformationScreen.WaitState("CheckError",NCheckStateMode.WaitAppear,3);
             if(ErrorAppears){

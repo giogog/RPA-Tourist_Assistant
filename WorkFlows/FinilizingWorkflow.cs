@@ -38,7 +38,7 @@ namespace Tourist_Assistant.WorkFlows
             
         }
         
-        public async Task HostingData(Client clientContext,string airportCity)
+        public void HostingData(Client clientContext,string airportCity)
         {
             var hostingDataScreen = uiAutomation.Attach("HostingData",_targetAppOptions);
             airportCity = airportCity.Split(",")[0].Trim();
@@ -57,7 +57,7 @@ namespace Tourist_Assistant.WorkFlows
             
         }
         
-        public async Task Questions(){
+        public void Questions(){
             var questionsScreen = uiAutomation.Attach("Questions",_targetAppOptions);
             bool appears = questionsScreen.WaitState("City",NCheckStateMode.WaitAppear,3);
             if(appears)

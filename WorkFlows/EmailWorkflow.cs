@@ -16,11 +16,7 @@ namespace Tourist_Assistant.WorkFlows
         public async Task<List<MailMessage>> Execute()
         {
             var EmailsTask = Task.Run(() => RetrieveMails()); 
-            var OpenPageTask = OpenBrowser();
-            
-            
-            await Task.WhenAll(EmailsTask,OpenPageTask);
-            
+            OpenBrowser();
             
             return await EmailsTask;
         
@@ -48,7 +44,7 @@ namespace Tourist_Assistant.WorkFlows
                         });
         }
         
-        public async Task OpenBrowser()
+        public void OpenBrowser()
         {
             Log("Open Browser");
             uiAutomation.Open("WebPage",_targetAppOptions);

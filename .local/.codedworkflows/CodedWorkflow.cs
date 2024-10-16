@@ -22,18 +22,18 @@ namespace Tourist_Assistant
 {
     public partial class CodedWorkflow : CodedWorkflowBase
     {
-        private Lazy<Tourist_Assistant.WorkflowRunnerService> _workflowRunnerServiceLazy;
+        private Lazy<global::Tourist_Assistant.WorkflowRunnerService> _workflowRunnerServiceLazy;
         private Lazy<ConnectionsManager> _connectionsManagerLazy;
         public CodedWorkflow()
         {
-            _ = new System.Type[]{typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Excel.Activities.API.IExcelService), typeof(UiPath.Mail.Activities.Api.IMailService), typeof(UiPath.Testing.API.ITestingService)};
-            _workflowRunnerServiceLazy = new Lazy<Tourist_Assistant.WorkflowRunnerService>(() => new Tourist_Assistant.WorkflowRunnerService(this.services));
+            _ = new System.Type[]{typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService), typeof(UiPath.Excel.Activities.API.IExcelService), typeof(UiPath.Core.Activities.API.ISystemService), typeof(UiPath.Testing.API.ITestingService), typeof(UiPath.Mail.Activities.Api.IMailService)};
+            _workflowRunnerServiceLazy = new Lazy<global::Tourist_Assistant.WorkflowRunnerService>(() => new global::Tourist_Assistant.WorkflowRunnerService(this.services));
 #pragma warning disable
             _connectionsManagerLazy = new Lazy<ConnectionsManager>(() => new ConnectionsManager(serviceContainer));
 #pragma warning restore
         }
 
-        protected Tourist_Assistant.WorkflowRunnerService workflows => _workflowRunnerServiceLazy.Value;
+        protected global::Tourist_Assistant.WorkflowRunnerService workflows => _workflowRunnerServiceLazy.Value;
         protected ConnectionsManager connections => _connectionsManagerLazy.Value;
 #pragma warning disable
         protected UiPath.Excel.Activities.API.IExcelService excel { get => serviceContainer.Resolve<UiPath.Excel.Activities.API.IExcelService>() ; }
