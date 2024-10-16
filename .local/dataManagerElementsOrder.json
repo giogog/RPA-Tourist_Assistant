@@ -30,8 +30,8 @@
         "googleData&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [
-        "out_Code",
-        "in_AirportName"
+        "in_AirportName",
+        "out_Code"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -52,7 +52,9 @@
     {
       "Path": "Sequences/NotRobot.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "googleData&Sequence_2"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -72,8 +74,13 @@
     {
       "Path": "Sequences/QuiteChrome.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "googleData&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_AirportName",
+        "out_Code"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },

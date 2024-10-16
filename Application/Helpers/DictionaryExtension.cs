@@ -11,12 +11,5 @@ public static class DictionaryExtension
         return context.Value[index];
     }
     
-    
-//    public static List<string>? ReturnDictionaryListValue(this KeyValuePair<string, List<string>> context)
-//    {
-//        if(context.Key == null && context.Value == null){
-//            return null;
-//        }
-//        return context.Value;
-//    }
+
 }
