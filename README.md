@@ -1,3 +1,9 @@
-This is RPA project with Uipath Studio. It fills traveling ticket forms for toursits. This project uses Uipath Coded Workflows and normal sequences as well. I've configured robot with seperate classes, and extension methods. Project flow is like it connects to email server. after that it gets mails from Tourists, this mail contains data like name, address destination country etc..
-I ve service which gets this data filters, parses and Fills dictionaries, after that it opens this webpage where forms should be filled. It starts filling forms seperately because forms are on seperate page and it should be filled after previous is done,
- Finally when all Forms are filled, it dowwnloads Pdf and sends this pdf back to email sender.
+RPA Project - Travel Ticket Form Automation
+This project is built using UiPath Studio and automates the process of filling travel ticket forms for tourists. It combines UiPath Coded Workflows with standard sequences, and the automation is organized with separate classes and extension methods for better structure and maintainability.
+
+Project Flow
+Email Integration: The robot connects to an email server and retrieves emails from tourists. Each email contains essential information such as the tourist's name, address, and destination country.
+Data Processing: A service processes the retrieved data by filtering, parsing, and organizing it into dictionaries.
+Form Filling: The robot navigates to a webpage where the travel forms are located. Each form is on a separate page, and the robot fills them sequentially, ensuring one form is completed before moving on to the next.
+PDF Generation & Email Response: Once all forms are filled, the robot downloads a PDF version of the completed forms and sends it back to the original email sender.
+This project streamlines the process of handling multiple travel requests, making it efficient and error-free.
