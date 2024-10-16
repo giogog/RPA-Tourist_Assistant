@@ -1,0 +1,3 @@
+This is RPA project with Uipath Studio. It fills traveling ticket forms for toursits. This project uses Uipath Coded Workflows and normal sequences as well. I've configured robot with seperate classes, and extension methods. Project flow is like it connects to email server. after that it gets mails from Tourists, this mail contains data like name, address destination country etc..
+I ve service which gets this data filters, parses and Fills dictionaries, after that it opens this webpage where forms should be filled. It starts filling forms seperately because forms are on seperate page and it should be filled after previous is done,
+ Finally when all Forms are filled, it dowwnloads Pdf and sends this pdf back to email sender.
